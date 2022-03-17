@@ -1,0 +1,1 @@
+{"version":3,"file":"css/index.css","mappings":";;;AAAA;EACE;AACF,C","sources":["webpack://wevpack_p01/./src/css/index.scss"],"sourcesContent":["p {\n  text-align: center;\n}\n"],"names":[],"sourceRoot":""}

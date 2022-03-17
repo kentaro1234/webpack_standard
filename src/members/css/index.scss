@@ -1,0 +1,23 @@
+.memberList{
+  &__item {
+    margin-top: 20px;
+    a {
+      display: table;
+    }
+  }
+}
+.memberList__icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 64px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.memberList__name{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+}

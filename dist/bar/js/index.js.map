@@ -1,0 +1,1 @@
+{"version":3,"file":"bar/js/index.js","mappings":";;;;;AAAAA,OAAO,CAACC,GAAR,CAAY,gBAAZ,E","sources":["webpack://wevpack_p01/./src/bar/js/index.js"],"sourcesContent":["console.log('This is bar.js');\n"],"names":["console","log"],"sourceRoot":""}

@@ -1,0 +1,31 @@
+@import '_reset.scss';
+@import '_header.scss';
+@import '_footer.scss';
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, メイリオ, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  width: 980px;
+  max-width: 100%;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.content {
+  min-height: 500px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 13px;
+}

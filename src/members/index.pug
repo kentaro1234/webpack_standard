@@ -1,0 +1,19 @@
+extends /templates/_layout.pug
+
+block locals
+  - var title = "MEMBERS"
+
+block content
+  h1 MEMBERS
+  p メンバー
+  ul.memberList
+    li.memberList__item
+      a(href="/members/taro.html")
+        span.memberList__icon
+          img(src="/assets/images/members/icon.png")
+        span.memberList__name 山田 太郎
+    li.memberList__item
+      a(href="/members/hanako.html")
+        span.memberList__icon
+          img(src="/assets/images/members/icon.png")
+        span.memberList__name 山田 花子
