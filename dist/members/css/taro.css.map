@@ -1,0 +1,1 @@
+{"version":3,"file":"members/css/taro.css","mappings":";;;AACE;EACE;EACA;AAAJ,C","sources":["webpack://wevpack_p01/./src/members/css/taro.scss"],"sourcesContent":[".photo {\n  img {\n    width: 100%;\n    height: auto;\n  }\n}\n"],"names":[],"sourceRoot":""}

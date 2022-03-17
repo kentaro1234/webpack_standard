@@ -1,1 +1,0 @@
-{"version":3,"file":"foo/css/index.css","mappings":";;;AAAA;EACE;EACA;AACF,C","sources":["webpack://wevpack_p01/./src/foo/css/index.scss"],"sourcesContent":["body {\n  background-image: url(/assets/images/thumbnail.jpg);\n  background-repeat: no-repeat;\n}\n"],"names":[],"sourceRoot":""}

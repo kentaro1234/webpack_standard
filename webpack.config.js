@@ -19,18 +19,13 @@ module.exports = {
     'common/js/common': './src/common/js/common.js',
     'js/index': './src/js/index.js',
     'members/css/index': './src/members/css/index.scss',
-    'foo/js/index': './src/foo/js/index.js',
-    'bar/js/index': './src/bar/js/index.js',
-    'css/test': './src/css/test.scss',
+    'members/css/taro': './src/members/css/taro.scss',
   },
   output: {
     clean: true,
     path: path.resolve(__dirname, './dist'),
     filename: '[name].js'
   },
-  // resolve: {
-  //   roots: [path.resolve(__dirname, './src')],
-  // },
   module: {
     rules: [
       {
@@ -79,24 +74,6 @@ module.exports = {
           }
         ]
       },
-      // {
-      //   test: /\.(png|jpg|gif)$/i,
-      //   type: 'asset/resource',
-      //   generator: {
-      //     filename: 'img/[name][ext]'
-      //   },
-      //   use: [
-      //     {
-      //       loader: 'image-webpack-loader',
-      //       options: {
-      //         mozjpeg: {
-      //           progressive: true,
-      //           quality: 65
-      //         }
-      //       }
-      //     }
-      //   ]
-      // },
       {
         test: /\.pug/,
         use: [
@@ -146,12 +123,12 @@ module.exports = {
       ]
     }),
     new HtmlWebpackPlugin({
-      template: './src/members/index.pug',
-      filename: 'members/index.html',
+      template: './src/members/taro.pug',
+      filename: 'members/taro.html',
       inject: 'body',
       chunks: [
         'common/js/common',
-        'members/css/index'
+        'members/css/taro'
       ]
     }),
     new CopyWebpackPlugin({
