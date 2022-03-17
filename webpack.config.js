@@ -123,6 +123,15 @@ module.exports = {
       ]
     }),
     new HtmlWebpackPlugin({
+      template: './src/members/index.pug',
+      filename: 'members/index.html',
+      inject: 'body',
+      chunks: [
+        'common/js/common',
+        'members/css/index'
+      ]
+    }),
+    new HtmlWebpackPlugin({
       template: './src/members/taro.pug',
       filename: 'members/taro.html',
       inject: 'body',
